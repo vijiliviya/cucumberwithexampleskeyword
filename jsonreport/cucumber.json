@@ -1,0 +1,500 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 201095,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepoutlinewithexample.startTest()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Free CRM Create a new contact scenario",
+        "description": "",
+        "id": "free-crm-create-contacts;free-crm-create-a-new-contact-scenario;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 907229275,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepoutlinewithexample.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13096113965,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "On Home Page",
+            "match": {
+              "location": "Stepoutlinewithexample.On_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13709863326,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User try to Navigate to LogIn Page",
+            "match": {
+              "location": "Stepoutlinewithexample.user_try_to_Navigate_to_LogIn_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3075194985,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"vijayalakshmiraja88@gmail.com\" and \"jesus@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vijayalakshmiraja88@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "jesus@123",
+                  "offset": 49
+                }
+              ],
+              "location": "Stepoutlinewithexample.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8437343126,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User moves to new contact page",
+            "match": {
+              "location": "Stepoutlinewithexample.user_moves_to_new_contact_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 27504339091,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//table[@class\u003d\u0027ui celled sortable striped table custom-grid\u0027]//tbody//tr//td[contains(text(),\u0027viji Hari\u0027)]\"}\n  (Session info: chrome\u003d75.0.3770.100)\n  (Driver info: chromedriver\u003d2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027ENCDTH061\u0027, ip: \u0027192.168.30.157\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_05\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\\Users\\vraja\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49864}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}\nSession ID: dcbaab38e410bb8866ff01ceae293ae8\n*** Element info: {Using\u003dxpath, value\u003d//table[@class\u003d\u0027ui celled sortable striped table custom-grid\u0027]//tbody//tr//td[contains(text(),\u0027viji Hari\u0027)]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\r\n\tat StepDefinitonFile.Stepoutlinewithexample.user_check_the_contact_already_available_and(Stepoutlinewithexample.java:157)\r\n\tat ✽.Then user check the contact already available \"viji\" and \"Hari\"(src/main/java/featuresFile/scenariooutlineexample.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "user check the contact already available \"viji\" and \"Hari\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "viji",
+                  "offset": 42
+                },
+                {
+                  "val": "Hari",
+                  "offset": 53
+                }
+              ],
+              "location": "Stepoutlinewithexample.user_check_the_contact_already_available_and(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user enters contact details \"viji\" and \"Hari\" and \"QA analyst\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "viji",
+                  "offset": 29
+                },
+                {
+                  "val": "Hari",
+                  "offset": 40
+                },
+                {
+                  "val": "QA analyst",
+                  "offset": 51
+                }
+              ],
+              "location": "Stepoutlinewithexample.user_enters_contact_details(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Close the browser",
+            "match": {
+              "location": "Stepoutlinewithexample.brower_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 120593,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepoutlinewithexample.startTest()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Free CRM Create a new contact scenario",
+        "description": "",
+        "id": "free-crm-create-contacts;free-crm-create-a-new-contact-scenario;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 334537870,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepoutlinewithexample.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16158441776,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "On Home Page",
+            "match": {
+              "location": "Stepoutlinewithexample.On_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14572063424,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User try to Navigate to LogIn Page",
+            "match": {
+              "location": "Stepoutlinewithexample.user_try_to_Navigate_to_LogIn_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4021623293,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"mmkstarone@gmail.com\" and \"578722@Ory\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mmkstarone@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "578722@Ory",
+                  "offset": 40
+                }
+              ],
+              "location": "Stepoutlinewithexample.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7754031356,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User moves to new contact page",
+            "match": {
+              "location": "Stepoutlinewithexample.user_moves_to_new_contact_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 84306141503,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user check the contact already available \"Mani\" and \"Mohan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mani",
+                  "offset": 42
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 53
+                }
+              ],
+              "location": "Stepoutlinewithexample.user_check_the_contact_already_available_and(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10032933667,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@name\u003d\u0027first_name\u0027]\"}\n  (Session info: chrome\u003d75.0.3770.100)\n  (Driver info: chromedriver\u003d2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027ENCDTH061\u0027, ip: \u0027192.168.30.157\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_05\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\\Users\\vraja\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49964}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}\nSession ID: 467b1b7819d2344ae783db1c4790a60f\n*** Element info: {Using\u003dxpath, value\u003d//input[@name\u003d\u0027first_name\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\r\n\tat StepDefinitonFile.Stepoutlinewithexample.user_enters_contact_details(Stepoutlinewithexample.java:191)\r\n\tat ✽.Then user enters contact details \"Mani\" and \"Mohan\" and \"Developer\"(src/main/java/featuresFile/scenariooutlineexample.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "user enters contact details \"Mani\" and \"Mohan\" and \"Developer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mani",
+                  "offset": 29
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 40
+                },
+                {
+                  "val": "Developer",
+                  "offset": 52
+                }
+              ],
+              "location": "Stepoutlinewithexample.user_enters_contact_details(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Close the browser",
+            "match": {
+              "location": "Stepoutlinewithexample.brower_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 76653,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepoutlinewithexample.startTest()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Free CRM Create a new contact scenario",
+        "description": "",
+        "id": "free-crm-create-contacts;free-crm-create-a-new-contact-scenario;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 340592841,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepoutlinewithexample.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10961122654,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "On Home Page",
+            "match": {
+              "location": "Stepoutlinewithexample.On_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15370592835,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User try to Navigate to LogIn Page",
+            "match": {
+              "location": "Stepoutlinewithexample.user_try_to_Navigate_to_LogIn_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2285632409,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"neelamvermamsc@gmail.com\" and \"Siya@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "neelamvermamsc@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Siya@123",
+                  "offset": 44
+                }
+              ],
+              "location": "Stepoutlinewithexample.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8293730079,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User moves to new contact page",
+            "match": {
+              "location": "Stepoutlinewithexample.user_moves_to_new_contact_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 58717611084,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user check the contact already available \"Neelam\" and \"Verma\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Neelam",
+                  "offset": 42
+                },
+                {
+                  "val": "Verma",
+                  "offset": 55
+                }
+              ],
+              "location": "Stepoutlinewithexample.user_check_the_contact_already_available_and(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10073412074,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@name\u003d\u0027first_name\u0027]\"}\n  (Session info: chrome\u003d75.0.3770.100)\n  (Driver info: chromedriver\u003d2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027ENCDTH061\u0027, ip: \u0027192.168.30.157\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_05\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\\Users\\vraja\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50143}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}\nSession ID: 7f9477966b8d4dd89d2fce8a06a18f6d\n*** Element info: {Using\u003dxpath, value\u003d//input[@name\u003d\u0027first_name\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\r\n\tat StepDefinitonFile.Stepoutlinewithexample.user_enters_contact_details(Stepoutlinewithexample.java:191)\r\n\tat ✽.Then user enters contact details \"Neelam\" and \"Verma\" and \"Senior Developer\"(src/main/java/featuresFile/scenariooutlineexample.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "user enters contact details \"Neelam\" and \"Verma\" and \"Senior Developer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Neelam",
+                  "offset": 29
+                },
+                {
+                  "val": "Verma",
+                  "offset": 42
+                },
+                {
+                  "val": "Senior Developer",
+                  "offset": 54
+                }
+              ],
+              "location": "Stepoutlinewithexample.user_enters_contact_details(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Close the browser",
+            "match": {
+              "location": "Stepoutlinewithexample.brower_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Create Contacts",
+    "description": "",
+    "id": "free-crm-create-contacts",
+    "keyword": "Feature",
+    "uri": "src/main/java/featuresFile/scenariooutlineexample.feature"
+  }
+]
