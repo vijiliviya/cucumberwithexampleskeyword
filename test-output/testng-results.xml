@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="63" started-at="2019-07-11T13:16:24Z" finished-at="2019-07-11T13:16:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="63" started-at="2019-07-11T13:16:24Z" finished-at="2019-07-11T13:16:24Z">
+      <class name="testNgExample.Priorityexample">
+        <test-method status="PASS" signature="NegativePrioirty100()[pri:-100, instance:testNgExample.Priorityexample@7cd62f43]" name="NegativePrioirty100" duration-ms="16" started-at="2019-07-11T18:46:24Z" finished-at="2019-07-11T18:46:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativePrioirty100 -->
+        <test-method status="PASS" signature="NegativeonePrioirty()[pri:-2, instance:testNgExample.Priorityexample@7cd62f43]" name="NegativeonePrioirty" duration-ms="15" started-at="2019-07-11T18:46:24Z" finished-at="2019-07-11T18:46:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativeonePrioirty -->
+        <test-method status="PASS" signature="ZerothPriority()[pri:0, instance:testNgExample.Priorityexample@7cd62f43]" name="ZerothPriority" duration-ms="0" started-at="2019-07-11T18:46:24Z" finished-at="2019-07-11T18:46:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZerothPriority -->
+        <test-method status="PASS" signature="AbNegativePrioirty()[pri:-1, instance:testNgExample.Priorityexample@7cd62f43]" name="AbNegativePrioirty" duration-ms="0" started-at="2019-07-11T18:46:24Z" finished-at="2019-07-11T18:46:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AbNegativePrioirty -->
+        <test-method status="PASS" signature="NegativePrioirty()[pri:-1, instance:testNgExample.Priorityexample@7cd62f43]" name="NegativePrioirty" duration-ms="0" started-at="2019-07-11T18:46:24Z" finished-at="2019-07-11T18:46:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativePrioirty -->
+        <test-method status="PASS" signature="PositivePriority()[pri:1, instance:testNgExample.Priorityexample@7cd62f43]" name="PositivePriority" duration-ms="0" started-at="2019-07-11T18:46:24Z" finished-at="2019-07-11T18:46:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PositivePriority -->
+        <test-method status="PASS" signature="SkippedPriority()[pri:100, instance:testNgExample.Priorityexample@7cd62f43]" name="SkippedPriority" duration-ms="0" started-at="2019-07-11T18:46:24Z" finished-at="2019-07-11T18:46:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SkippedPriority -->
+      </class> <!-- testNgExample.Priorityexample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

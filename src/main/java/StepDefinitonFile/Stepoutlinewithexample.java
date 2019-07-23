@@ -199,7 +199,7 @@ catch(Exception e){
 		for(int i=0; i<lisobj.size();i++)          
 		{
 			String textofdiv=lisobj.get(i).getText();
-			System.out.println(textofdiv);
+			System.out.println(textofdiv); 
 			Thread.sleep(1000);
 			if(textofdiv.equalsIgnoreCase("LinkedIn"))
 			{

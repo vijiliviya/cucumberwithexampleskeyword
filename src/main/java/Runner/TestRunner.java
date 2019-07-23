@@ -41,13 +41,8 @@ public class TestRunner {
 		Reporter.setSystemInfo("Maven", "3.5.2");
 		Reporter.setSystemInfo("Java Version", "1.8.0_151");
 		Reporter.setTestRunnerOutput("Test Execution Cucumber Report");
-		Reporter.setSystemInfo("Machine", "Windows 10" +"  "+ "64 Bit");
-		Reporter.setSystemInfo("Selenium", "3.7.0");
-		Reporter.setSystemInfo("Maven", "3.5.2");
-		Reporter.setSystemInfo("Java Version", "1.8.0_151");
-		Reporter.setTestRunnerOutput("Test Execution Cucumber Report");
 		//Reporter.addScreenCaptureFromPath("C:\\Users\\vraja\\workspace\\POMWithBDDFramework\\Driver");
-//hjkhkjhjkhjkjkkhk
+
 
 
 
